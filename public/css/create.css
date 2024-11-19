@@ -1,0 +1,44 @@
+body {
+    background-color:rgb(250, 246, 236)!important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.form-label{
+    color:black!important;
+    left: 100px;
+}
+.imagen h1{
+color: green!important;
+}
+
+.mb-3 {
+    margin-left: 50px; /* Ajusta el margen izquierdo para mover los campos hacia la derecha */
+    margin-right: 50px; /* Ajusta el margen derecho para espacio adicional */
+  }
+.form-floating{
+    margin-left: 50px; /* Ajusta el margen izquierdo para mover los campos hacia la derecha */
+    margin-right: 50px; /* Ajusta el margen derecho para espacio adicional */
+  }
+
+.btn-primary{
+    margin-left: 50px; /* Ajusta el margen izquierdo para mover los campos hacia la derecha */
+    margin-right: 50px; /* Ajusta el margen derecho para espacio adicional */
+}
+
+.btn-success{
+    margin-left: 50px; /* Ajusta el margen izquierdo para mover los campos hacia la derecha */
+    margin-right: 50px; /* Ajusta el margen derecho para espacio adicional */
+}
+  /* Ajusta el ancho de los campos de entrada */
+.form-control {
+    width: calc(100% - 100px); /* Resta 100px para el margen izquierdo y derecho */
+}
+
+.imagen{
+    text-align: center;
+}
+
+
+

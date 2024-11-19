@@ -1,0 +1,67 @@
+body {
+    background-color:rgb(250, 246, 236)!important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.nav-link a{
+    color: black;
+}
+.navbar {
+    background: linear-gradient(to right, #000000, #656464); /* Aplica un gradiente lineal de negro a blanco */
+    transition: background-color 1s; /* Agrega una transición para suavizar el cambio de color */
+}
+
+.nav-item{
+    background-color: #000000!important;
+}
+
+/*estilos para titulo de pagina*/
+h2{
+    color:black!important;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ /* Estilo para el contenedor del collage */
+ .collage {
+    display: flex; /* Utilizamos flexbox para organizar las imágenes */
+    flex-wrap: wrap; /* Para que las imágenes se ajusten automáticamente */
+    gap: 10px; /* Espacio entre las imágenes */
+}
+
+/* Estilo para cada imagen */
+.imagen-con-nombre {
+    position: relative; /* Para posicionar el nombre encima de la imagen */
+    width: 450px; /* Ancho de cada imagen */
+    height: auto; /* Altura ajustada automáticamente */
+    top: 10px;
+    left: 90px;
+}
+
+/* Estilo para el nombre de la imagen */
+.nombre-imagen {
+    display: none; /* Ocultar el nombre inicialmente */
+    position: absolute; /* Para posicionar el nombre encima de la imagen */
+    bottom: 0; /* Alinear el nombre en la parte inferior */
+    left: 0; /* Alinear el nombre a la izquierda */
+    width: 100%; /* Ancho completo */
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente para el nombre */
+    color: white!important; /* Color del texto */
+    padding: 5px; /* Espaciado interno del nombre */
+    box-sizing: border-box; /* Incluir el padding en el ancho total */
+    font-family: 'Times New Roman', Times, serif
+}
+
+/* Mostrar el nombre al pasar el cursor sobre la imagen */
+.imagen-con-nombre:hover .nombre-imagen {
+    display: block; /* Mostrar el nombre cuando se pasa el cursor sobre la imagen */
+}
+
+/* Estilo para la imagen dentro del contenedor */
+.imagen-con-nombre img {
+    width: 100%; /* Ajustar la imagen al ancho del contenedor */
+    height: auto; /* Altura ajustada automáticamente */
+}
+

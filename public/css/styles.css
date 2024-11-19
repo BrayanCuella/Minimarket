@@ -1,0 +1,50 @@
+body {
+    background-color:rgb(250, 246, 236)!important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+
+h1{
+    color: black!important;
+    text-align: center;
+}
+
+h1.text-white{
+    color: #000000!important;
+}
+.text-white{
+    color: black!important;
+}
+
+.texto-blanco {
+    color: black!important; /* Cambia el color del texto a blanco */
+}
+
+.container {
+    text-align: center; /* Centrar el contenido */
+}
+
+.navbar {
+    background: linear-gradient(to right, #000000, #656464); /* Aplica un gradiente lineal de negro a blanco */
+    transition: background-color 1s; /* Agrega una transición para suavizar el cambio de color */
+}
+
+.nav-item{
+  background-color: #000000!important;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffd700;
+    text-decoration: underline;
+}
